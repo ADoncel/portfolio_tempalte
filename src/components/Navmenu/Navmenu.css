@@ -1,0 +1,46 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../../assets/Britanica-Heavy_Regular.ttf);
+ }
+
+ .main{
+    margin: auto auto;
+ }
+
+.menu {
+    text-align: start;
+    margin: 0;
+    padding: 0;
+    font-family: myFirstFont;
+    text-transform: uppercase;
+}
+
+.menu-item{
+    padding: 1em 0;
+    color: #d4d4d4;
+    list-style: none;
+    outline: none;
+}
+
+.menu a, .menu a:hover{
+    color: #d4d4d4;
+    text-decoration:none; 
+}
+
+.menu-item:hover{
+    filter: drop-shadow(0 0 0.1em #ff7e55);
+}
+
+.menu-item:active{
+    color: #ff7e55;
+    outline: none;
+    list-style:square;
+    filter: drop-shadow(0 0 0.1em #ff5722);
+}
+
+.menu-selected{
+    padding: 1em 0;
+    color: #ff7e55;
+    outline: none;
+    list-style:square;
+}
