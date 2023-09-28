@@ -6,7 +6,7 @@
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
-  height: 100%;
+  overflow: visible;
 }
 
 .logo {
@@ -19,7 +19,7 @@
   filter: drop-shadow(0 0 1em #646cffaa);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 1em #3E605A);
+  filter: drop-shadow(0 0 1em #3e605a);
 }
 
 @keyframes logo-spin {
@@ -43,4 +43,36 @@
 
 .read-the-docs {
   color: #888;
+}
+
+section {
+  float: left;
+  margin: 0;
+  padding: 1em 0;
+  display: inline;   
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  width: 100%;
+}
+
+.nav {
+  float: left;
+  display: grid;
+  margin-right: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  height: 100vh;
+  align-content: center;
+  top: 0;
+  left: 0;
+  padding-right: 20px;
+}
+
+.content {
+  display: grid;
+  place-items: center;
 }

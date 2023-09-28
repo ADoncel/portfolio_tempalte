@@ -15,32 +15,31 @@
     text-transform: uppercase;
 }
 
-.menu-item{
+.item{
     padding: 1em 0;
     color: #d4d4d4;
     list-style: none;
     outline: none;
 }
 
-.menu a, .menu a:hover{
+.menu a{
     color: #d4d4d4;
     text-decoration:none; 
 }
 
-.menu-item:hover{
+.menu a:hover{
+    color: #d4d4d4;
     filter: drop-shadow(0 0 0.1em #ff7e55);
 }
 
-.menu-item:active{
+.menu a:active{
     color: #ff7e55;
     outline: none;
     list-style:square;
     filter: drop-shadow(0 0 0.1em #ff5722);
 }
 
-.menu-selected{
-    padding: 1em 0;
+.selected{
     color: #ff7e55;
-    outline: none;
     list-style:square;
 }
