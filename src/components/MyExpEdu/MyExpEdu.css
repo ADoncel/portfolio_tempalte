@@ -1,0 +1,27 @@
+.tabs-content {
+  height: 80vh;
+  width: 100%;
+  display: grid;
+  padding: 0 5vw;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 0.5fr 1.5fr 0.5fr;
+}
+
+.tabs-content h1 {
+  font-family: titles_font;
+}
+
+.tabs-content span:hover {
+  color: #d4d4d4;
+  border-color: #ff7e55;
+  filter: drop-shadow(0 0 0.1em #ff7e55);
+}
+
+.tabs-content span:active {
+  color: #ff7e55;
+  outline: none;
+  list-style: square;
+  border-color: #ff7e55;
+  filter: drop-shadow(0 0 0.1em #ff5722);
+}

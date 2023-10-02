@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Home from "../Home/Home";
 import About from "../About/About";
-import Experience from "../Experience/Experience";
+import MyExpEdu from "../MyExpEdu/MyExpEdu";
 import Projects from "../Projects/Projects";
 import Contact from "../Contact/Contact";
 import { Route, Routes, HashRouter } from "react-router-dom";
@@ -53,7 +53,7 @@ const Navmenu = () => {
           <Routes>
             <Route path="/" element={<Home setIsSelected={setIsSelected} menuItems={menuItems}/>} />
             <Route path="/about" element={<About setIsSelected={setIsSelected} menuItems={menuItems}/>} />
-            <Route path="/experience" element={<Experience />} />
+            <Route path="/experience" element={<MyExpEdu />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
