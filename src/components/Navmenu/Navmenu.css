@@ -1,46 +1,51 @@
-@font-face {
-    font-family: myFirstFont;
-    src: url(../../assets/Britanica-Heavy_Regular.ttf);
- }
-
- .main{
-    margin: auto auto;
- }
+.nav {
+  float: left;
+  display: flex;
+  margin: auto;
+  height: 80vh;
+  align-content: center;
+  justify-content: center;
+  padding: 0 2vw;
+}
 
 .menu {
-    text-align: start;
-    margin: 0;
-    padding: 0;
-    font-family: myFirstFont;
-    text-transform: uppercase;
+  display: grid;
+  text-align: start;
+  margin: 0;
+  padding: 0;
+  font-family: titles_font;
+  text-transform: uppercase;
+  align-content: center;
+  justify-content: center;
 }
 
-.menu-item{
-    padding: 1em 0;
-    color: #d4d4d4;
-    list-style: none;
-    outline: none;
+.item {
+  padding: 1em 0;
+  color: #d4d4d4;
+  list-style: none;
+  outline: none;
 }
 
-.menu a, .menu a:hover{
-    color: #d4d4d4;
-    text-decoration:none; 
+.menu a {
+  color: #d4d4d4;
+  text-decoration: none;
 }
 
-.menu-item:hover{
-    filter: drop-shadow(0 0 0.1em #ff7e55);
+.menu a:hover {
+  color: #d4d4d4;
+  filter: drop-shadow(0 0 0.1em #ff7e55);
 }
 
-.menu-item:active{
-    color: #ff7e55;
-    outline: none;
-    list-style:square;
-    filter: drop-shadow(0 0 0.1em #ff5722);
+.menu a:active {
+  color: #ff7e55;
+  outline: none;
+  list-style: square;
+  filter: drop-shadow(0 0 0.1em #ff5722);
 }
 
-.menu-selected{
-    padding: 1em 0;
-    color: #ff7e55;
-    outline: none;
-    list-style:square;
+.selected {
+  color: #ff7e55;
+  list-style: square;
+  padding: 1em 0;
+  outline: none;
 }

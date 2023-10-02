@@ -1,0 +1,35 @@
+.home h1 {
+  font-family: titles_font;
+  font-style: ligth;
+}
+
+.home {
+  height: 80vh;
+  width: 100%;
+  display: grid;
+  padding: 0 10vw;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 0.5fr 1.5fr 0.5fr;
+}
+
+.home button:hover {
+  color: #d4d4d4;
+  border-color: #ff7e55;
+  filter: drop-shadow(0 0 0.1em #ff7e55);
+}
+
+.home button:active {
+  color: #ff7e55;
+  outline: none;
+  list-style: square;
+  border-color: #ff7e55;
+  filter: drop-shadow(0 0 0.1em #ff5722);
+}
+
+.home button {
+  font-family: titles_font;
+  font-style: ligth;
+  text-transform: uppercase;
+  font-size: large;
+}

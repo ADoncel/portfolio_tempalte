@@ -1,9 +1,50 @@
-import "./About.css"
+import "./About.css";
+import antonio_img from "../../assets/antonio.png";
+import { NavLink } from "react-router-dom";
 
-const Footer = () => {
-  return (
-    <div>About me</div>
-  )
+interface Props {
+  setIsSelected: React.Dispatch<React.SetStateAction<number>>;
+  menuItems: string[];
 }
 
-export default Footer
+const About = (props: Props) => {
+  return (
+    <>
+      <div className="about">
+        <div className="about__container">
+          <img src={antonio_img} className="about__container__img" />
+        </div>
+        <div className="about__data">
+          <h1>
+            Lest talk <u>about me!</u>
+          </h1>
+          <p>
+            I am a versatile professional with extensive experience in
+            engineering and management roles. I have excelled as a Project
+            Manager at Concept7 and Unravel, demonstrating my project management
+            expertise. As the Team Lead Manager at Socrates Digital Video B.V.,
+            I oversaw the development and production of cutting-edge products
+            and software, managing teams and operations effectively. My
+            technical skills include C++ software development, Linux
+            administration, and in training web development. My track
+            record of success, adaptability, and a keen aptitude for
+            problem-solving make me a valuable asset for engineering or
+            management positions.
+          </p>
+          <NavLink to="/contact">
+            <button
+              onClick={() => {
+                props.setIsSelected(props.menuItems.indexOf("contact"));
+                sessionStorage.setItem("option", "contact");
+              }}
+            >
+              Work with me
+            </button>
+          </NavLink>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default About;
