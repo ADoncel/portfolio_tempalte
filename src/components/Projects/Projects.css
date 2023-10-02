@@ -1,0 +1,13 @@
+.projects {
+    height: 80vh;
+    width: 100%;
+    display: grid;
+    padding: 0 5vw;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 0.5fr 1.5fr 0.5fr;
+  }
+  
+  .projects h1 {
+    font-family: titles_font;
+  }

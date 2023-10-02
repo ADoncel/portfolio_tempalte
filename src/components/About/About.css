@@ -5,12 +5,13 @@
 .about__container {
   display: flex;
   align-items: center;
+  /* justify-content: center; */
   justify-content: flex-end;
 }
 .about__container__img {
-  width: 50%;
+  width: 60%;
   height: auto;
-  border-radius: 50%;
+  border-radius: 20%;
   filter: drop-shadow(0 0 0.5em #fefefe);
 }
 .about {
@@ -20,7 +21,7 @@
   align-content: center;
   justify-content: center;
   padding: 0 5vw;
-  grid-template-columns: minmax(350px, 1fr) 1.5fr;
+  grid-template-columns: minmax(350px, 0.5fr) 2fr;
 }
 
 .about button:hover {

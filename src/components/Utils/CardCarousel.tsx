@@ -5,12 +5,10 @@ import { IoIosArrowDroprightCircle,IoIosArrowDropleftCircle } from 'react-icons/
 interface Props {
   data: {
       title: string;
+      subtitle?:string;
+      image?:string;
       date: string;
-      content: {
-          parragraph1: string;
-          parragraph2: string;
-          parragraph3: string;
-      };
+      content: [string];
   }[]
 }
 

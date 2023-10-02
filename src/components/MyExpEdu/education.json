@@ -1,20 +1,20 @@
 [
-    {
-      "title": "University of granada - Computer Engineer",
-      "date": "2011 - 2017",
-      "content": {
-        "parragraph1": "Developed and maintained web applications using React and Redux.",
-        "parragraph2": "Collaborated with team members to design and implement new features.",
-        "parragraph3": "Optimized application performance through code refactoring and debugging."
-      }
-    },
-    {
-      "title": "IES Zaiding Vergeles - Associated Degree Computer system administration ",
-      "date": "January 2019 - June 2020",
-      "content": {
-        "parragraph1": "Assisted in the development of web applications using React and Redux.",
-        "parragraph2": "Participated in code reviews and provided feedback to team members.",
-        "parragraph3": "Debugged and resolved issues with existing applications."
-      }
-    }
-  ]
+  {
+    "title": "University of granada - Computer Engineer",
+    "date": "2011 - 2017",
+    "content": [
+      "Developed and maintained web applications using React and Redux.",
+      "Collaborated with team members to design and implement new features.",
+      "Optimized application performance through code refactoring and debugging."
+    ]
+  },
+  {
+    "title": "IES Zaiding Vergeles - Associated Degree Computer system administration ",
+    "date": "January 2019 - June 2020",
+    "content": [
+      "Assisted in the development of web applications using React and Redux.",
+      "Participated in code reviews and provided feedback to team members.",
+      "Debugged and resolved issues with existing applications."
+    ]
+  }
+]
