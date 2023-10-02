@@ -1,25 +1,32 @@
+import './Contact.css'
+
 const Contact = () => {
   return (
     <>
-      <div className="content">
-        <h2>Get in touch!</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit mus ornare,
-          curabitur auctor senectus libero non sem sodales imperdiet placerat,
-          est vehicula pretium etiam dui cum tempus dignissim. Sem risus quam
-          faucibus orci imperdiet magna sapien, molestie fames tempor duis
-          litora nascetur elementum aptent, purus dictumst lectus venenatis ad
-          tortor. Velit odio turpis molestie facilisis, sapien integer maecenas
-          ultrices, dapibus nisi egestas. Mus dui ad euismod varius odio
-          elementum, lobortis fringilla penatibus et ut mi, convallis parturient
-          ridiculus lectus vel. Dictumst aptent torquent ac luctus nisi
-          parturient cum, dui scelerisque ridiculus sodales consequat volutpat,
-          litora sociosqu suscipit imperdiet nam nec. Ante tortor etiam justo
-          nunc ultrices nisi tellus proin massa dignissim laoreet nostra,
-          pretium sem molestie augue praesent facilisi condimentum ac himenaeos
-          euismod.
-        </p>
-        <button>Get in touch</button>
+      <div className="contact">
+        <div></div>
+        <div className="contact__form">
+        <h1>Interested in working with me</h1>
+        <form>
+          <label htmlFor="name">Name *</label>
+          <input type="text" id="name" name="name" required />
+
+          <label htmlFor="phone">Phone</label>
+          <input type="tel" id="phone" name="phone" />
+
+          <label htmlFor="email">Email *</label>
+          <input type="email" id="email" name="email" required />
+
+          <label htmlFor="motivation">Motivation</label>
+          <input type="text" id="motivation" name="motivation" />
+
+          <label htmlFor="message">Message *</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Contact!</button>
+        </form>
+        </div>
+        <div></div>
       </div>
     </>
   )
