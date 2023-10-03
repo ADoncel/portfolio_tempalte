@@ -1,6 +1,6 @@
 import "./About.css";
-import antonio_img from "../../assets/antonio.png";
 import { NavLink } from "react-router-dom";
+import antonio_img from "../../assets/antonio.png";
 
 interface Props {
   setIsSelected: React.Dispatch<React.SetStateAction<number>>;
@@ -12,7 +12,11 @@ const About = (props: Props) => {
     <>
       <div className="about">
         <div className="about__container">
-          <img src={antonio_img} className="about__container__img" />
+          <img
+            src={antonio_img}
+            className="about__container__img"
+            alt="self_image"
+          />
         </div>
         <div className="about__data">
           <h1>
@@ -26,10 +30,9 @@ const About = (props: Props) => {
             I oversaw the development and production of cutting-edge products
             and software, managing teams and operations effectively. My
             technical skills include C++ software development, Linux
-            administration, and in training web development. My track
-            record of success, adaptability, and a keen aptitude for
-            problem-solving make me a valuable asset for engineering or
-            management positions.
+            administration, and in training web development. My track record of
+            success, adaptability, and a keen aptitude for problem-solving make
+            me a valuable asset for engineering or management positions.
           </p>
           <NavLink to="/contact">
             <button

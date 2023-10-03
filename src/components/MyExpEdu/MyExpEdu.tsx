@@ -1,8 +1,8 @@
-import CardCarousel from "../Utils/CardCarousel";
 import { useState } from "react";
+import CardCarousel from "../Utils/CardCarousel";
 import "./MyExpEdu.css";
-import educationCards from "./education.json"
-import experienceCards from "./experience.json"
+import educationCards from "./education.json";
+import experienceCards from "./experience.json";
 
 const MyExpEdu = () => {
   const [activeTab, setActiveTab] = useState("Experience");
@@ -13,17 +13,17 @@ const MyExpEdu = () => {
 
   return (
     <div className="tabs-content">
-      <div></div>
+      <div />
       <div>
         <h1>
-        {"My "}
+          {"My "}
           <span
             onClick={() => handleTabClick("Experience")}
             style={{
               textDecoration: activeTab === "Experience" ? "underline" : "none",
             }}
           >
-             Experience
+            Experience
           </span>
           {" | "}
           <span
@@ -32,12 +32,16 @@ const MyExpEdu = () => {
               textDecoration: activeTab === "Education" ? "underline" : "none",
             }}
           >
-             Education
+            Education
           </span>
         </h1>
-        {activeTab === "Experience" ? <CardCarousel data={experienceCards}/> : <CardCarousel data={educationCards}/>}
+        {activeTab === "Experience" ? (
+          <CardCarousel data={experienceCards} />
+        ) : (
+          <CardCarousel data={educationCards} />
+        )}
       </div>
-      <div></div>
+      <div />
     </div>
   );
 };

@@ -3,9 +3,9 @@ module.exports = {
   env: { browser: true, es2020: true, es6: true },
   extends: [
     'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:react-hooks/recommended',
     "react-app",
+    // 'plugin:@typescript-eslint/recommended',
+    'plugin:react-hooks/recommended',
     "plugin:prettier/recommended",
     "prettier"
   ],
@@ -17,7 +17,7 @@ module.exports = {
   },
   plugins: ['react-refresh',
             "react",
-            "@typescript-eslint",
+            // "@typescript-eslint",
             "autofix",
             "react-hooks"],
   rules: {
