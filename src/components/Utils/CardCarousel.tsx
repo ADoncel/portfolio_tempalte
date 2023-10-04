@@ -1,5 +1,8 @@
 import { useState } from "react";
+
 import "./CardCarousel.css";
+
+import { IconContext } from "react-icons";
 import {
   IoIosArrowDroprightCircle,
   IoIosArrowDropleftCircle,
@@ -42,13 +45,21 @@ const CardCarousel = (p: Props) => {
             {Object.values(p.data[currentCard].content).map(
               (paragraph, index) => (
                 <li key={index}>{paragraph}</li>
-              ),
+              )
             )}
           </ul>
         </div>
         <div className="experience-controls">
           <button onClick={handlePrevCard}>
-            <IoIosArrowDropleftCircle />
+            <IconContext.Provider
+              value={{
+                color: "#000",
+                size: "5em",
+                style: { filter: "drop-shadow(0 0 0.3em #d4d4d4)" },
+              }}
+            >
+              <IoIosArrowDropleftCircle />
+            </IconContext.Provider>
           </button>
           <div className="experience-dots">
             {p.data.map((_, index) => (
@@ -62,7 +73,15 @@ const CardCarousel = (p: Props) => {
             ))}
           </div>
           <button onClick={handleNextCard}>
-            <IoIosArrowDroprightCircle />
+            <IconContext.Provider
+              value={{
+                color: "#000",
+                size: "5em",
+                style: { filter: "drop-shadow(0 0 0.3em #d4d4d4)" },
+              }}
+            >
+              <IoIosArrowDroprightCircle />
+            </IconContext.Provider>
           </button>
         </div>
       </div>
