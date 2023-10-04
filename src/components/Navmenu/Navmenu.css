@@ -34,6 +34,7 @@
 .menu a:hover {
   color: #d4d4d4;
   filter: drop-shadow(0 0 0.1em #ff7e55);
+  transition: 0.5s filter;
 }
 
 .menu a:active {
@@ -41,6 +42,7 @@
   outline: none;
   list-style: square;
   filter: drop-shadow(0 0 0.1em #ff5722);
+  transition: 0.1s filter;
 }
 
 .selected {
@@ -48,4 +50,5 @@
   list-style: square;
   padding: 1em 0;
   outline: none;
+  transition: 0.5s color;
 }

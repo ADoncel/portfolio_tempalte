@@ -20,7 +20,13 @@ const Contact = () => {
       <div className="contact">
         <div />
         <div className="contact__form">
-          <h1>Interested in working with me</h1>
+          <h1>
+            Interested?{" "}
+            <u style={{ color: "#ff7e55", textDecorationColor: "#FFF" }}>
+              Contact me
+            </u>
+            !
+          </h1>
           <form>
             <label htmlFor="name">Name *</label>
             <input type="text" id="name" name="name" required />

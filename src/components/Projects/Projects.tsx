@@ -7,7 +7,7 @@ import "./Projects.css";
 import projectCards from "./projects.json";
 
 const Projects = () => {
-  const [activeTab, setActiveTab] = useState<string>("Experience");
+  const [activeTab, setActiveTab] = useState<string>("Done");
 
   const handleTabClick = (tabName: string) => {
     setActiveTab(tabName);
@@ -21,20 +21,22 @@ const Projects = () => {
           <h1>
             {"Projects "}
             <span
-              onClick={() => handleTabClick("Experience")}
+              onClick={() => handleTabClick("Done")}
               style={{
-                textDecoration:
-                  activeTab === "Experience" ? "underline" : "none",
+                textDecoration: activeTab === "Done" ? "underline" : "none",
+                color: activeTab === "Done" ? "#ff7e55" : "#FFF",
+                textDecorationColor: activeTab === "Done" ? "#FFF" : "none",
               }}
             >
               Done
             </span>
             {" | "}
             <span
-              onClick={() => handleTabClick("Education")}
+              onClick={() => handleTabClick("Managed")}
               style={{
-                textDecoration:
-                  activeTab === "Education" ? "underline" : "none",
+                textDecoration: activeTab === "Managed" ? "underline" : "none",
+                color: activeTab === "Managed" ? "#ff7e55" : "#FFF",
+                textDecorationColor: activeTab === "Managed" ? "#FFF" : "none",
               }}
             >
               Managed

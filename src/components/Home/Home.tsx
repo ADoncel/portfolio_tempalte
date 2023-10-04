@@ -14,7 +14,7 @@ const Home = (props: Props) => {
         <div className="home__data">
           <h1>
             Hello! I am{" "}
-            <span style={{ color: "#ff7e55" }}>
+            <span>
               <u>Antonio Doncel</u>
             </span>
           </h1>

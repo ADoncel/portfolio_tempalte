@@ -47,6 +47,7 @@
   text-align: justify;
   width: 70%;
   font-family: 'Poppins', sans-serif;
+  font-size: large;
 }
 
 .about__data {
@@ -54,4 +55,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.about__data h1 u{
+  color: #ff7e55;
+  text-decoration-color: #fff;
 }

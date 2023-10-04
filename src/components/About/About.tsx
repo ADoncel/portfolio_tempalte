@@ -20,7 +20,7 @@ const About = (props: Props) => {
         </div>
         <div className="about__data">
           <h1>
-            Lest talk <u>about me!</u>
+            {"Let's talk "} <u>about me</u>!
           </h1>
           <p>
             I am a versatile professional with extensive experience in
@@ -30,9 +30,10 @@ const About = (props: Props) => {
             I oversaw the development and production of cutting-edge products
             and software, managing teams and operations effectively. My
             technical skills include C++ software development, Linux
-            administration, and in training web development. My track record of
-            success, adaptability, and a keen aptitude for problem-solving make
-            me a valuable asset for engineering or management positions.
+            administration, and in training full-stack web development. My track
+            record of success, adaptability, and a keen aptitude for
+            problem-solving make me a valuable asset for development or
+            management of projects.
           </p>
           <NavLink to="/contact">
             <button

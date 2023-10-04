@@ -24,6 +24,8 @@ const MyExpEdu = () => {
             onClick={() => handleTabClick("Experience")}
             style={{
               textDecoration: activeTab === "Experience" ? "underline" : "none",
+              color: activeTab === "Experience" ? "#ff7e55" : "#FFF",
+              textDecorationColor: activeTab === "Experience" ? "#FFF" : "none",
             }}
           >
             Experience
@@ -33,6 +35,8 @@ const MyExpEdu = () => {
             onClick={() => handleTabClick("Education")}
             style={{
               textDecoration: activeTab === "Education" ? "underline" : "none",
+              color: activeTab === "Education" ? "#ff7e55" : "#FFF",
+              textDecorationColor: activeTab === "Education" ? "#FFF" : "none",
             }}
           >
             Education

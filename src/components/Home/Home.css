@@ -33,3 +33,8 @@
   text-transform: uppercase;
   font-size: large;
 }
+
+.home__data span u{
+  color: #ff7e55;
+  text-decoration-color: #fff
+}
