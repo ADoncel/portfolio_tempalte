@@ -11,3 +11,17 @@
   .projects h1 {
     font-family: britanica_font;
   }
+
+  .projects span:hover {
+    color: #d4d4d4;
+    border-color: #ff7e55;
+    filter: drop-shadow(0 0 0.1em #ff7e55);
+  }
+  
+  .projects span:active {
+    color: #ff7e55;
+    outline: none;
+    list-style: square;
+    border-color: #ff7e55;
+    filter: drop-shadow(0 0 0.1em #ff5722);
+  }

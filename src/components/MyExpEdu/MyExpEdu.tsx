@@ -1,11 +1,14 @@
 import { useState } from "react";
+
 import CardCarousel from "../Utils/CardCarousel";
+
 import "./MyExpEdu.css";
+
 import educationCards from "./education.json";
 import experienceCards from "./experience.json";
 
 const MyExpEdu = () => {
-  const [activeTab, setActiveTab] = useState("Experience");
+  const [activeTab, setActiveTab] = useState<string>("Experience");
 
   const handleTabClick = (tabName: string) => {
     setActiveTab(tabName);
