@@ -51,8 +51,12 @@
 }
 
 @font-face {
-  font-family: titles_font;
+  font-family: britanica_font;
   src: url(./assets/Britanica-Heavy_Regular.ttf);
+}
+@font-face {
+  font-family: britanica_font_thin;
+  src: url(./assets/Britanica-ThinExpanded_Expanded.ttf);
 }
 
 .header__logo {

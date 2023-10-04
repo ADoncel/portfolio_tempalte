@@ -1,6 +1,20 @@
+import { useState } from "react";
+
 import "./Contact.css";
 
 const Contact = () => {
+  const [message, setMessage] = useState<string>("");
+  const [characterCount, setCharacterCount] = useState<number>(0);
+
+  const handleMessageChange = (
+    // eslint-disable-next-line prettier/prettier
+    event: React.ChangeEvent<HTMLTextAreaElement>
+  ) => {
+    const { value } = event.target;
+    setMessage(value);
+    setCharacterCount(value.length);
+  };
+
   return (
     <>
       <div className="contact">
@@ -21,7 +35,15 @@ const Contact = () => {
             <input type="text" id="motivation" name="motivation" />
 
             <label htmlFor="message">Message *</label>
-            <textarea id="message" name="message" required />
+            <textarea
+              id="message"
+              name="message"
+              maxLength={300}
+              value={message}
+              onChange={handleMessageChange}
+              required
+            />
+            <div className="contact__form__charcount">{characterCount}/300</div>
 
             <button type="submit">Contact!</button>
           </form>
