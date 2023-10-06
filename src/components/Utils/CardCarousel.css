@@ -64,6 +64,19 @@
   border: none !important;
   border-radius: 0px !important;
   outline: none !important;
+  color: #171b20;
+  filter: drop-shadow(0 0 0.3em #d4d4d4);
+  size: 4em;
+}
+
+.experience-controls button:hover {
+  transition: 0.3s filter;
+  filter: drop-shadow(0 0 0.3em #ff7e55);
+}
+
+.experience-controls button:active {
+  transition: 0.3s filter;
+  filter: drop-shadow(0 0 0.3em #ff5722);
 }
 
 .experience-dots {

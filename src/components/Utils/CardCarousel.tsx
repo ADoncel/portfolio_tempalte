@@ -45,7 +45,7 @@ const CardCarousel = (p: Props) => {
             {Object.values(p.data[currentCard].content).map(
               (paragraph, index) => (
                 <li key={index}>{paragraph}</li>
-              )
+              ),
             )}
           </ul>
         </div>
@@ -53,9 +53,7 @@ const CardCarousel = (p: Props) => {
           <button onClick={handlePrevCard}>
             <IconContext.Provider
               value={{
-                color: "#000",
-                size: "5em",
-                style: { filter: "drop-shadow(0 0 0.3em #d4d4d4)" },
+                size: "4em",
               }}
             >
               <IoIosArrowDropleftCircle />
@@ -75,9 +73,7 @@ const CardCarousel = (p: Props) => {
           <button onClick={handleNextCard}>
             <IconContext.Provider
               value={{
-                color: "#000",
-                size: "5em",
-                style: { filter: "drop-shadow(0 0 0.3em #d4d4d4)" },
+                size: "4em",
               }}
             >
               <IoIosArrowDroprightCircle />
