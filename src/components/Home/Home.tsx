@@ -1,12 +1,7 @@
 import "./Home.css";
 import { NavLink } from "react-router-dom";
 
-interface Props {
-  setIsSelected: React.Dispatch<React.SetStateAction<number>>;
-  menuItems: string[];
-}
-
-const Home = (props: Props) => {
+const Home = () => {
   return (
     <>
       <div className="home">
@@ -20,14 +15,7 @@ const Home = (props: Props) => {
           </h1>
           <h1>I am a Software Engineer Manager</h1>
           <NavLink to="/contact">
-            <button
-              onClick={() => {
-                props.setIsSelected(props.menuItems.indexOf("contact"));
-                sessionStorage.setItem("option", "contact");
-              }}
-            >
-              Get in touch
-            </button>
+            <button>Get in touch</button>
           </NavLink>
         </div>
         <div />

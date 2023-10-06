@@ -2,12 +2,7 @@ import "./About.css";
 import { NavLink } from "react-router-dom";
 import antonio_img from "../../assets/antonio.png";
 
-interface Props {
-  setIsSelected: React.Dispatch<React.SetStateAction<number>>;
-  menuItems: string[];
-}
-
-const About = (props: Props) => {
+const About = () => {
   return (
     <>
       <div className="about">
@@ -36,14 +31,7 @@ const About = (props: Props) => {
             management of projects.
           </p>
           <NavLink to="/contact">
-            <button
-              onClick={() => {
-                props.setIsSelected(props.menuItems.indexOf("contact"));
-                sessionStorage.setItem("option", "contact");
-              }}
-            >
-              Work with me
-            </button>
+            <button>Work with me</button>
           </NavLink>
         </div>
       </div>

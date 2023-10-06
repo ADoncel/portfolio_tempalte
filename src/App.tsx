@@ -1,3 +1,5 @@
+import { HashRouter } from "react-router-dom";
+
 import logo from "./assets/logo_nobg.png";
 import Footer from "./components/Footer/Footer";
 import Navmenu from "./components/Navmenu/Navmenu";
@@ -11,7 +13,9 @@ function App() {
         <img src={logo} className="header__logo" width={"120px"} alt="logo" />
       </div>
       <div id="main">
-        <Navmenu />
+        <HashRouter>
+          <Navmenu />
+        </HashRouter>
       </div>
       <div id="footer">
         <Footer />
