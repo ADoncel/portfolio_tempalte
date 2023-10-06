@@ -4,7 +4,8 @@ import CardCarousel from "../Utils/CardCarousel";
 
 import "./Projects.css";
 
-import projectCards from "./projects.json";
+import projectsDone from "./projects_done.json";
+import projectsManaged from "./projects_managed.json";
 
 const Projects = () => {
   const [activeTab, setActiveTab] = useState<string>("Done");
@@ -42,10 +43,10 @@ const Projects = () => {
               Managed
             </span>
           </h1>
-          {activeTab === "Experience" ? (
-            <CardCarousel data={projectCards} />
+          {activeTab === "Done" ? (
+            <CardCarousel data={projectsDone} />
           ) : (
-            <CardCarousel data={projectCards} />
+            <CardCarousel data={projectsManaged} />
           )}
         </div>
         <div />
