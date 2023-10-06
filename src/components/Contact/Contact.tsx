@@ -29,13 +29,25 @@ const Contact = () => {
           </h1>
           <form>
             <label htmlFor="name">Name *</label>
-            <input type="text" id="name" name="name" required />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              autoComplete="given-name"
+              required
+            />
 
             <label htmlFor="phone">Phone</label>
-            <input type="tel" id="phone" name="phone" />
+            <input type="tel" id="phone" name="phone" autoComplete="tel" />
 
             <label htmlFor="email">Email *</label>
-            <input type="email" id="email" name="email" required />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              autoComplete="email"
+              required
+            />
 
             <label htmlFor="motivation">Motivation</label>
             <input type="text" id="motivation" name="motivation" />
