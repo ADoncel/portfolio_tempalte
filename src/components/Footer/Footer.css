@@ -1,8 +1,9 @@
-.footer{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.footer {
+  display: flex;
   margin: 0;
   padding: 0;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer a {
@@ -23,25 +24,3 @@
   filter: drop-shadow(0 0 0.1em #ff5722);
   transition: 0.1s filter;
 }
-
-.footer__left {
-    margin-left: auto;
-    font-size: larger;
-}
-
-.footer__left a{
-    display: flex;
-    align-items: center;
-  }
-
-.footer__right {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  font-size: larger;
-  margin-left: 5vw;
-  align-items: center;
-}
-.footer__right a{
-    margin-left: 10px;
-  }

@@ -53,3 +53,30 @@
 .header__logo {
   float: left;
 }
+
+.header a {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-size: larger;
+  margin-left: 5vw;
+  align-items: center;
+  color: #d4d4d4;
+  text-decoration: none;
+  margin-left: 10px;
+  float: right;
+}
+
+.header a:hover {
+  color: #d4d4d4;
+  filter: drop-shadow(0 0 0.1em #ff7e55);
+  transition: 0.5s filter;
+}
+
+.header a:active {
+  color: #ff7e55;
+  outline: none;
+  list-style: square;
+  filter: drop-shadow(0 0 0.1em #ff5722);
+  transition: 0.1s filter;
+}
