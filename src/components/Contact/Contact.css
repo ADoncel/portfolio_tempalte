@@ -9,7 +9,7 @@
 }
 
 .contact h1 {
-  font-family: britanica_font;
+  font-family: "Syne";
   font-style: ligth;
 }
 
@@ -32,13 +32,13 @@
 
 .contact__form form label {
   text-transform: uppercase;
-  font-family: britanica_font;
+  font-family: "Syne";
 }
 
 .contact__form form input {
   width: 100%;
   margin-bottom: 1em;
-  font-family: "Poppins";
+  font-family: "Kanit";
   border-radius: 10px;
   box-sizing: border-box;
   outline: none !important;
@@ -49,7 +49,7 @@
 .contact__form form textarea {
   width: 100%;
   height: 10em;
-  font-family: "Poppins";
+  font-family: "Kanit";
   border-radius: 10px;
   outline: none !important;
   border: 1px solid #eee;
@@ -58,14 +58,14 @@
 
 .contact__form form button {
   text-transform: uppercase;
-  font-family: britanica_font;
+  font-family: "Syne";
   font-size: large;
   margin-top: 3em;
   margin: 2em auto 0 auto;
 }
 
 .contact__form__charcount {
-  font-family: britanica_font_thin;
+  font-family: "Syne";
   font-size: small;
   margin-left: auto;
 }

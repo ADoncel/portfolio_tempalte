@@ -21,7 +21,7 @@
 }
 
 .experience-card h2 {
-  font-family: britanica_font;
+  font-family: "Syne";
   margin: 0;
   font-size: 2rem;
   font-weight: bold;
@@ -35,7 +35,7 @@
   margin-bottom: 1rem;
   text-align: justify;
   width: 70%;
-  font-family: "Poppins", sans-serif;
+  font-family: "Kanit", sans-serif;
 }
 
 .experience-card ul {
@@ -48,7 +48,7 @@
 .experience-card li {
   margin-bottom: 0.5rem;
   text-align: justify;
-  font-family: "Poppins", sans-serif;
+  font-family: "Kanit", sans-serif;
 }
 
 .experience-controls {

@@ -1,6 +1,6 @@
 .about h1 {
-  font-family: britanica_font;
-  font-style: ligth;
+  font-family: 'Syne';
+  /* font-style: ligth; */
 }
 .about__container {
   display: flex;
@@ -38,7 +38,7 @@
 }
 
 .about button {
-  font-family: britanica_font;
+  font-family: "Syne";
   font-style: large;
   text-transform: uppercase;
 }
@@ -46,7 +46,7 @@
 .about__data p {
   text-align: justify;
   width: 70%;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Kanit', sans-serif;
   font-size: large;
 }
 
