@@ -1,11 +1,5 @@
 import { useState, useEffect } from "react";
-import { Route, Routes, NavLink, useLocation } from "react-router-dom";
-
-import About from "../About/About";
-import Contact from "../Contact/Contact";
-import Home from "../Home/Home";
-import MyExpEdu from "../MyExpEdu/MyExpEdu";
-import Projects from "../Projects/Projects";
+import { NavLink, useLocation } from "react-router-dom";
 
 import "./Navmenu.css";
 
@@ -43,14 +37,6 @@ const Navmenu = () => {
           </NavLink>
         ))}
       </ul>
-
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/experience" element={<MyExpEdu />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
     </div>
   );
 };

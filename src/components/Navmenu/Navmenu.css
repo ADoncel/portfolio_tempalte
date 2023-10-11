@@ -1,29 +1,24 @@
 .nav {
-  float: left;
-  display: flex;
-  margin: auto;
-  height: 80vh;
   align-content: center;
   justify-content: center;
-  padding: 0 2vw;
+  margin: 1vw;
 }
 
 .menu {
-  display: grid;
+  display: flex;
   text-align: start;
   margin: 0;
   padding: 0;
   font-family: "Syne";
   text-transform: uppercase;
   align-content: center;
-  justify-content: center;
 }
 
 .item {
-  padding: 1em 0;
   color: #d4d4d4;
   list-style: none;
   outline: none;
+  margin: 0 3vw;
 }
 
 .menu a {
@@ -48,7 +43,7 @@
 .selected {
   color: #ff7e55;
   list-style: square;
-  padding: 1em 0;
+  margin: 0 3vw;
   outline: none;
   transition: 0.5s color;
 }
