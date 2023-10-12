@@ -6,13 +6,6 @@ const About = () => {
   return (
     <>
       <div className="about">
-        <div className="about__container">
-          <img
-            src={antonio_img}
-            className="about__container__img"
-            alt="self_image"
-          />
-        </div>
         <div className="about__data">
           <h1>
             {"Let's talk "} <u>about me</u>!
@@ -31,8 +24,11 @@ const About = () => {
             management of projects.
           </p>
           <NavLink to="/contact">
-            <button>Work with me</button>
+            <button className="about__button">Work with me</button>
           </NavLink>
+        </div>
+        <div className="about__container">
+          <img src={antonio_img} className="about__img" alt="self_image" />
         </div>
       </div>
     </>
