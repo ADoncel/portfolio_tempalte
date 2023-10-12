@@ -1,15 +1,16 @@
 .tabs-content {
   height: 80vh;
   width: 100%;
-  display: grid;
+  display: flex;
   padding: 0 5vw;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  grid-template-columns: 0.5fr 1.5fr 0.5fr;
+  justify-items: center;
 }
 
 .tabs-content h1 {
   font-family: "Syne";
+  margin-bottom: 5vh;
 }
 
 .tabs-content span {
