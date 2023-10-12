@@ -18,7 +18,6 @@ const Contact = () => {
   return (
     <>
       <div className="contact">
-        <div />
         <div className="contact__form">
           <h1>
             Interested?{" "}
@@ -66,7 +65,6 @@ const Contact = () => {
             <button type="submit">Contact!</button>
           </form>
         </div>
-        <div />
       </div>
     </>
   );

@@ -1,4 +1,6 @@
 .about {
+  height: 100%;
+  width: 100%;
   display: grid;
   justify-items: center;
   align-items: center;
@@ -12,7 +14,7 @@
 
 .about__container {
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
 }
 

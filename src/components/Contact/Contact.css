@@ -1,16 +1,16 @@
 .contact {
-  height: 80vh;
+  height: 100%;
   width: 100%;
-  display: grid;
-  padding: 0 10vw;
+  display: flex;
   justify-content: center;
   align-items: center;
-  grid-template-columns: 0.5fr 1.5fr 0.5fr;
 }
 
 .contact h1 {
   font-family: "Syne";
   font-style: ligth;
+  margin-bottom: 3vh;
+  margin-top: 2vh;
 }
 
 .contact__form {
@@ -18,7 +18,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 40vw;
 }
 
 .contact__form form {
@@ -27,7 +26,6 @@
   flex-direction: column;
   justify-content: left;
   align-items: start;
-  padding-bottom: 5em;
 }
 
 .contact__form form label {
@@ -39,6 +37,8 @@
   width: 100%;
   margin-bottom: 1em;
   font-family: "Kanit";
+  font-weight: 200;
+  font-size: medium;
   border-radius: 10px;
   box-sizing: border-box;
   outline: none !important;
@@ -50,6 +50,8 @@
   width: 100%;
   height: 10em;
   font-family: "Kanit";
+  font-weight: 200;
+  font-size: medium;
   border-radius: 10px;
   outline: none !important;
   border: 1px solid #eee;
@@ -57,11 +59,7 @@
 }
 
 .contact__form form button {
-  text-transform: uppercase;
-  font-family: "Syne";
-  font-size: large;
-  margin-top: 3em;
-  margin: 2em auto 0 auto;
+  margin: 3vh auto 0 auto;
 }
 
 .contact__form__charcount {
@@ -84,18 +82,4 @@
 
 .contact__form form textarea:focus {
   border-color: #ff5722;
-}
-
-.contact__form form button:hover {
-  color: #d4d4d4;
-  border-color: #ff7e55;
-  filter: drop-shadow(0 0 0.1em #ff7e55);
-}
-
-.contact__form form button:active {
-  color: #ff7e55;
-  outline: none;
-  list-style: square;
-  border-color: #ff7e55;
-  filter: drop-shadow(0 0 0.1em #ff5722);
 }
