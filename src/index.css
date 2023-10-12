@@ -58,16 +58,29 @@ button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
+  font-family: "Syne";
+  font-style: ligth;
+  text-transform: uppercase;
+  font-size: large;
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
-  border-color: #646cff;
+  color: #d4d4d4;
+  border-color: #ff7e55;
+  filter: drop-shadow(0 0 0.1em #ff7e55);
 }
+
+button:active {
+  color: #ff7e55;
+  outline: none;
+  list-style: square;
+  border-color: #ff7e55;
+  filter: drop-shadow(0 0 0.1em #ff5722);
+}
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
