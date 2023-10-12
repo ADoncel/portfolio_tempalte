@@ -21,25 +21,6 @@
   margin: 0 3vw;
 }
 
-.menu a {
-  color: #d4d4d4;
-  text-decoration: none;
-}
-
-.menu a:hover {
-  color: #d4d4d4;
-  filter: drop-shadow(0 0 0.1em #ff7e55);
-  transition: 0.5s filter;
-}
-
-.menu a:active {
-  color: #ff7e55;
-  outline: none;
-  list-style: square;
-  filter: drop-shadow(0 0 0.1em #ff5722);
-  transition: 0.1s filter;
-}
-
 .selected {
   color: #ff7e55;
   list-style: square;

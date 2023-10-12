@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer">
       <a href="https://www.adoncca.nl/">
         <FaCopyright />
-        <span style={{ marginBottom: 3 }}>Adoncca 2023</span>
+        <span>Adoncca 2023</span>
       </a>
     </footer>
   );
