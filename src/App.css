@@ -24,8 +24,6 @@
   will-change: filter;
   transition: filter 300ms;
   align-items: center;
-}
-.header__logo:hover {
   filter: drop-shadow(0 0 0.75em #ff7e55);
 }
 

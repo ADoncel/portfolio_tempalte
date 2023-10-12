@@ -1,5 +1,5 @@
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes, NavLink } from "react-router-dom";
 
 import logo from "./assets/logo_nobg.png";
 
@@ -18,7 +18,14 @@ function App() {
     <>
       <HashRouter>
         <div id="header" className="header">
-          <img src={logo} className="header__logo" width={"120px"} alt="logo" />
+          <NavLink to="/">
+            <img
+              src={logo}
+              className="header__logo"
+              width={"120px"}
+              alt="logo"
+            />
+          </NavLink>
           <div className="navmenu">
             <Navmenu />
           </div>
