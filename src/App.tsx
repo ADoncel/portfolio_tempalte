@@ -19,8 +19,10 @@ function App() {
       <HashRouter>
         <div id="header" className="header">
           <img src={logo} className="header__logo" width={"120px"} alt="logo" />
-          <Navmenu />
-          <div>
+          <div className="navmenu">
+            <Navmenu />
+          </div>
+          <div className="links">
             <a
               href="https://github.com/adoncel"
               target="_blank"
