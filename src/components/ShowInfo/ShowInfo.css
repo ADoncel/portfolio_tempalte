@@ -1,30 +1,37 @@
-.projects {
+.tabs-content {
     height: 100%;
     width: 100%;
     display: flex;
     padding: 0 5vw;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    justify-items: center;
+    flex-direction: column;
   }
   
-  .projects h1 {
+  .tabs-content h1 section {
     font-family: "Syne";
-    margin-bottom: 5vh;
+    margin-bottom: 1.5vh;
   }
 
-  .projects span {
+  .tabs-content h1 {
+    font-family: "Syne";
+    margin-bottom: 3vh;
+    margin-top: 2vh;
+  }
+  
+  .tabs-content span {
     transition: 0.3s color;
+    margin: 0 0.5em;
   }
-
-  .projects span:hover {
+  
+  .tabs-content span:hover {
     color: #d4d4d4;
     border-color: #ff7e55;
     filter: drop-shadow(0 0 0.1em #ff7e55);
     transition: 0.5s filter;
   }
   
-  .projects span:active {
+  .tabs-content span:active {
     color: #ff7e55;
     outline: none;
     list-style: square;
