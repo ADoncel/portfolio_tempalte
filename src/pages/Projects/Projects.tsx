@@ -1,11 +1,11 @@
 import { useState } from "react";
 
-import CardCarousel from "../Utils/CardCarousel";
+import CardCarousel from "../../components/CardCarousel/CardCarousel";
 
 import "./Projects.css";
 
-import projectsDone from "./projects_done.json";
-import projectsManaged from "./projects_managed.json";
+import projectsDone from "../../data/projects_done.json";
+import projectsManaged from "../../data/projects_managed.json";
 
 const Projects = () => {
   const [activeTab, setActiveTab] = useState<string>("Done");

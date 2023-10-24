@@ -3,13 +3,13 @@ import { HashRouter, Route, Routes, NavLink } from "react-router-dom";
 
 import logo from "./assets/logo_nobg.png";
 
-import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
-import Home from "./components/Home/Home";
-import MyExpEdu from "./components/MyExpEdu/MyExpEdu";
 import Navmenu from "./components/Navmenu/Navmenu";
-import Projects from "./components/Projects/Projects";
+import About from "./pages/About/About";
+import Home from "./pages/Home/Home";
+import MyExpEdu from "./pages/MyExpEdu/MyExpEdu";
+import Projects from "./pages/Projects/Projects";
 
 import "./App.css";
 
