@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { NavLink, useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 import "./Navmenu.css";
 
@@ -24,7 +24,7 @@ const Navmenu = () => {
     <div className="nav">
       <ul className="menu">
         {menuItems.map((item, i) => (
-          <NavLink to={i === 0 ? "/" : "/" + item} key={i}>
+          <Link to={i === 0 ? "/" : "/" + item} key={i}>
             <li
               className={isSelected === i ? "selected" : "item"}
               onClick={() => {
@@ -34,7 +34,7 @@ const Navmenu = () => {
             >
               {item}
             </li>
-          </NavLink>
+          </Link>
         ))}
       </ul>
     </div>

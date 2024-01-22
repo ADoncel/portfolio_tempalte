@@ -1,5 +1,5 @@
 import "./About.css";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import antonio_img from "../../assets/antonio.png";
 
 const About = () => {
@@ -23,9 +23,9 @@ const About = () => {
             problem-solving make me a valuable asset for development or
             management of projects.
           </p>
-          <NavLink to="/contact">
+          <Link to="/contact">
             <button className="about__button">Work with me</button>
-          </NavLink>
+          </Link>
         </div>
         <div className="about__container">
           <img src={antonio_img} className="about__img" alt="self_image" />
