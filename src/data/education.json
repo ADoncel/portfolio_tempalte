@@ -1,20 +1,18 @@
 [
   {
-    "title": "University of granada - Computer Engineer",
+    "title": "University of Granada - BS Computer Engineering",
     "date": "2011 - 2017",
     "content": [
-      "Developed and maintained web applications using React and Redux.",
-      "Collaborated with team members to design and implement new features.",
-      "Optimized application performance through code refactoring and debugging."
+      "GPA: 7 of 10",
+      "Four (4) year bachelor degree integrating several areas of electrical engineering and computer science required to develop computer hardware and software, and the key to combine them for better result in final systems."
     ]
   },
   {
-    "title": "IES Zaiding Vergeles - Associated Degree Computer system administration ",
-    "date": "January 2019 - June 2020",
+    "title": "Associated Degree Computer system administration ",
+    "date": "2009 - 2011",
     "content": [
-      "Assisted in the development of web applications using React and Redux.",
-      "Participated in code reviews and provided feedback to team members.",
-      "Debugged and resolved issues with existing applications."
+      "GPA: 9.5 of 10",
+      "Two (2) years undergraduate degree that covers every aspect of computer systems: Databases, Development, Networking, Hardware, and Operating system management"
     ]
   }
 ]

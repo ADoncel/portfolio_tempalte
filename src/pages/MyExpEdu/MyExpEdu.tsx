@@ -19,7 +19,7 @@ const MyExpEdu = () => {
         tabs={["Experience", "Education"]}
         activeTab={activeTab}
         handleTabClick={handleTabClick}
-        data={activeTab === "Done" ? experienceCards : educationCards}
+        data={activeTab === "Experience" ? experienceCards : educationCards}
       />
     </>
   );
