@@ -1,5 +1,5 @@
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import { BrowserRouter, Route, Routes, NavLink } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 
 import logo from "./assets/logo_nobg.png";
 
@@ -18,14 +18,14 @@ function App() {
     <>
       <BrowserRouter>
         <div id="header" className="header">
-          <NavLink to="/">
+          <Link to="/">
             <img
               src={logo}
               className="header__logo"
               width={"120px"}
               alt="logo"
             />
-          </NavLink>
+          </Link>
           <div className="navmenu">
             <Navmenu />
           </div>
